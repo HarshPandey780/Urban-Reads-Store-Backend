@@ -13,7 +13,7 @@ import { Admin } from './models/Admin.js'
 const app = express()
 app.use(express.json())
 app.use(cors({
-    origin: ['https://meek-cajeta-1650fa.netlify.app'],
+    origin: ['https://spectacular-bombolone-b2a487.netlify.app'],
     credentials: true
 }))
 app.use(cookieParser())
